@@ -23,12 +23,9 @@
         <section id="more" class="site-section2 section-features2">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
-                        <h2>Tata Surya</h2>
-                        <p style="text-align: justify;">Dalam semesta penuh misteri ini, kita akan menjelajahi tiga kelompok utama yang membentuk tata surya dan fenomena di dalamnya. Dari Planet yang berkelana dalam orbitnya, hingga Objek kecil yang melintasi ruang angkasa, dan berbagai Fenomena alam yang memukau pandangan kita. Mari kita mulai memahami kedalaman alam semesta dan keajaiban yang ia tawarkan.</p>
-                    </div>
-                    <div class="col-sm-6 hidden-xs">
-                        <img src="assets/img_new/tatasurya.png" alt="">
+                    <div class="col-lg-12">
+                        <h2 class="text-center fw-bold">Tata Surya</h2>
+                        <p class="text-center fw-medium lh-base">Dalam semesta penuh misteri ini, kita akan menjelajahi tiga kelompok utama yang membentuk tata surya dan fenomena di dalamnya. Dari Planet yang berkelana dalam orbitnya, hingga Objek kecil yang melintasi ruang angkasa, dan berbagai Fenomena alam yang memukau pandangan kita. Mari kita mulai memahami kedalaman alam semesta dan keajaiban yang ia tawarkan.</p>
                     </div>
                 </div>
             </div>
