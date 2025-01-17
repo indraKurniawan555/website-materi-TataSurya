@@ -234,7 +234,7 @@ input[type=radio] {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-      transition: opacity .2s;
+    transition: opacity .2s;
     -webkit-transition: opacity .2s;
     -ms-transition: opacity .2s;
     -o-transition: opacity .2s;
@@ -1405,6 +1405,10 @@ a.linkedin-bg:hover {
     margin: 30px 0 0;
 }
 
+.project-description {
+    text-align: justify;
+}
+
 .project-date-category p + p {
     margin-top: 10px;
 }
@@ -1705,3 +1709,83 @@ a.linkedin-bg:hover {
   height: 500px;
   width: 100%
 }
+
+.detail-planet {
+    background-color: var(--secondary-color); /* Latar belakang kartu putih */
+    border-radius: 10px;
+    padding: 20px;
+    list-style: none;
+}
+.detail-planet li {
+    font-size: 1.1rem;
+    margin: 2px 0;
+    padding: 5px;
+    background-color: var(--primary-color); /* Hijau pastel */
+    border-left: 5px solid gray; /* Hitam kebiruan */
+    border-radius: 5px;
+    color: var(--secondary-color); /* Teks hitam kebiruan */
+}
+.detail-planet li span {
+    font-weight: bold;
+    color: var(--secondary-color); /* Teks dengan penekanan */
+}
+
+.title-detail {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--primary-color); /* Teks hitam kebiruan */
+}
+
+.title-description {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+
+<style>
+/* Efek Hero Section */
+#hero {
+    background-image: url('assets/img_new/planet.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    animation: backgroundMove 15s infinite linear;
+}
+
+/* Animasi pergerakan latar belakang */
+@keyframes backgroundMove {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+
+/* Animasi teks */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Efek Hover pada Gambar */
+.project-img img {
+    transition: transform 0.5s, box-shadow 0.5s;
+    border-radius: 15px;
+}
+
+.project-img img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+

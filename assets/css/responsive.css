@@ -534,6 +534,10 @@
 		margin-top: 20px;
 	}
 
+	.title-description {
+		text-align: center;
+	}
+
 	.project-date-category p + p {
 		margin-top: 5px;
 	}
@@ -707,9 +711,15 @@
 	.post-comment-content-details p + p {
 		margin: 5px 0 0 0;
 	}
+
+	.title-description {
+		text-align: center;
+	}
 }
 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
-
+	.title-description {
+		text-align: center;
+	}
 }

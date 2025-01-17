@@ -46,7 +46,7 @@
                             <div class="portfolio-item">
                                 <img src="assets/img_new/merkurius.jpeg" class="img-res" alt="">
                                 <h4 class="portfolio-item-title">Merkurius</h4>
-                                <a href="materi-item.php"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                <a href="materi-item-merkurius.php"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                             </div><!-- /.portfolio-item -->
                         </div>
                         <div class="col-lg-6 col-md-4 col-xs-6">
@@ -272,6 +272,6 @@
     <script src="assets/js/jquery.countTo.min.js"></script>
     <script src="assets/js/jquery.shuffle.min.js"></script>
     <script src="assets/js/script.js"></script>
-  
+
 </body>
 </html>
